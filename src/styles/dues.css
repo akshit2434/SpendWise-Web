@@ -1,0 +1,36 @@
+.wrapper_dues {
+  font-family: Host Grotesk;
+  padding-bottom: 300px;
+}
+.wrapper_dues h1 {
+  color: #c2c2c2;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.wrapper_dues .transaction {
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+  border: 0;
+  box-shadow: 8px 8px 0 #0e0e11, -8px -8px 0 #303037;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: center;
+}
+.wrapper_dues .transaction div {
+  display: inline;
+}
+.wrapper_dues .transaction .name {
+  margin-left: 5px;
+}
+.wrapper_dues .transaction .date {
+  margin-left: 5px;
+}
+.wrapper_dues .transaction svg {
+  margin-left: 20px;
+  width: 2rem;
+  height: 2rem;
+}/*# sourceMappingURL=dues.css.map */

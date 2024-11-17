@@ -1,0 +1,121 @@
+.wrapper_home .intro {
+  font-size: 2rem;
+}
+
+.card {
+  border-radius: 20px;
+  font-size: 0.6rem;
+  padding: 10px;
+}
+
+.wrapper_home .balancecard {
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.balancecard h2 {
+  font-size: 1.5rem;
+}
+
+.balancecard .curbal {
+  font-size: min(4rem, 14vw);
+  font-weight: 500;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.balancecard .sub-balance {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.balancecard .sub-balance .upi {
+  margin-right: 40px;
+}
+.sub-balance .upi span,
+.cash span {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+  font-size: 1.2rem;
+}
+
+.sub-balance .upi span:nth-of-type(1),
+.cash span:nth-of-type(1) {
+  margin-bottom: 2px;
+}
+
+.quote-box {
+  margin-top: 40px;
+  padding: 20px;
+  padding-top: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.quote-box .prog {
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 1rem;
+}
+
+.quote-box .quote {
+  font-size: 1.5rem;
+  line-height: 150%;
+  margin-top: 15px;
+  min-height: 10rem;
+  /* background: rgb(33,33,33);
+  background: linear-gradient(90deg, rgba(33,33,33,1) 0%, rgba(42,42,42,1) 35%, rgba(85,85,85,1) 100%); */
+}
+
+.quote-box .quote {
+  position: relative;
+  z-index: 10;
+  padding-top: 15px;
+  margin-right: 10%;
+  background: linear-gradient(145deg, #35353f, #313136);
+  box-shadow: none;
+  border: 0px solid rgb(51, 51, 51);
+}
+
+.quote-box .quote span {
+  display: block;
+}
+
+.quote .credits {
+  font-size: 1.2rem;
+  /* margin-top: auto; */
+  position: absolute;
+  bottom: 15px;
+  /* margin: 10px 0; */
+}
+
+.quote-box img {
+  position: absolute;
+  height: 8rem;
+  bottom: 0;
+  right: -20px;
+  z-index: 20;
+  filter: drop-shadow(5px 5px 5px #0f0f0f);
+}
+
+.line-card {
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 0 #18181d, -5px -5px 0 #4d4d55;
+  background: #25252b;
+  color: #969696;
+  display: flex;
+  justify-content: space-between;
+}
+.line-card h2,
+.line-card h3 {
+  display: inline-block;
+  font-size: 1rem;
+}
+.line-card:nth-of-type(1) {
+  margin-top: 0;
+}/*# sourceMappingURL=home.css.map */

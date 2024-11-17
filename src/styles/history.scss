@@ -1,0 +1,40 @@
+.wrapper_history {
+    font-family: Host Grotesk;
+    padding-bottom: 300px;
+    h1 {
+        color: #c2c2c2;
+        font-size: 2rem;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .transaction {
+        border-radius: 20px;
+        padding: 10px 20px;
+        margin-bottom: 30px;
+        border: 0;
+        box-shadow:
+            8px 8px 0 #0e0e11,
+            -8px -8px 0 #303037;
+        display: flex;
+        justify-content: space-between;
+        vertical-align: middle;
+        align-items: center;
+        div {
+            display: inline;
+        }
+        .name {
+            margin-left: 5px;
+        }
+        .date {
+            margin-left: 5px;
+        }
+        svg {
+            // transform: translateY(-22%);
+            margin-left: 20px;
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+}
